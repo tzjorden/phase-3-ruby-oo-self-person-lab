@@ -67,7 +67,6 @@ class Person
         case topic
         when "politics"
             # [self, friend].each { |person| person.happiness -= 2 }
-            # friend.happiness += 
             self.happiness -= 2
             friend.happiness -= 2
             "blah blah partisan blah lobbyist"
